@@ -1,0 +1,19 @@
+.App-header {
+    background-image: url("https://media.giphy.com/media/3oKIPjagnSA6mZWS1G/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+.media {
+    /* display: flex; */
+    /* display: flexbox; */
+    align-items: flex-start;
+}
