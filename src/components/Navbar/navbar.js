@@ -101,6 +101,17 @@ export default function PersistentDrawerRight() {
             </Link>
           ))}
         </List>
+
+        <List>
+          {["Contact"].map((text) =>(
+            <Link to="/contact">
+             <ListItemText primary={text}
+              style={{ color: "black", textEmphasis: "none" }} 
+              />
+            </Link>
+          ))}
+        </List>
+        
         {/* <List>
           {['Wishlist'].map((text) => (
             <Link

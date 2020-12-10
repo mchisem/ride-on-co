@@ -7,10 +7,13 @@ import Features from '../components/Features/index';
 import Search from '../components/Search/index';
 import Footer from "../components/Footer/index";
 
+// import AuthForm from "../components/auth/authForm";
+
 function Homepage() {
   return (
     <div style={{textAlign:"center"}}>
       <Header></Header>
+      {/* <AuthForm></AuthForm> */}
       <MediaObject></MediaObject>
       <Works></Works>
       <Features></Features>
